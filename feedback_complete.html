@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Feedback Status</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(to bottom, #e0f7fa, #ffffff);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .message-box {
+            background-color: white;
+            padding: 30px 40px;
+            border-radius: 15px;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+            text-align: center;
+            max-width: 400px;
+        }
+        .message-box h2 {
+            color: #004d66;
+            margin-bottom: 20px;
+        }
+        .message-box p {
+            font-size: 16px;
+            color: #333;
+        }
+        .checkmark {
+            color: green;
+            font-size: 22px;
+            margin-right: 8px;
+        }
+        .btn {
+            display: inline-block;
+            margin-top: 25px;
+            padding: 10px 20px;
+            background: linear-gradient(to right, #007bff, #00bfff);
+            color: white;
+            text-decoration: none;
+            border-radius: 8px;
+            font-weight: bold;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+        .btn:hover {
+            background: linear-gradient(to right, #0056b3, #008fb3);
+        }
+    </style>
+</head>
+<body>
+    <div class="message-box">
+        <h2>Feedback Status</h2>
+        <p><span class="checkmark">✅</span>Thank you! Your feedback has been submitted successfully.</p>
+        <a class="btn" href="dashboard.php">Go to Dashboard</a>
+    </div>
+</body>
+</html>
